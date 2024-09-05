@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bordas</title>
+
+    <style type="text/css">
+
+        #conteudo {
+            border-color: blue;
+            border-width: 15px;
+            border-style: outset;
+            background: grey;
+        }
+/*posso configurar cor, tamanho e estilo, juntos ou separados. 
+Agrupado seria o modo abaixo,
+ declarando somente border */
+        #conteudo2 {
+            border: 5px dotted red;
+            background: rgb(226, 216, 216);
+        }
+  /*https://www.w3schools.com/css/css_border.asp site com estilos de 
+  bordas
+    */
+    #conteudo3 {
+            border-color: aqua green yellow blue;
+            border-width: 10px 5px 10px 8px;
+            border-style: hidden solid dotted;
+        }
+        /* Aqui conseguimos realizar funções diferentes para cada lado
+        borda, lembrando que a borda de cima existe, mas usando hidden, ela 
+        "some" */
+
+    </style>
+
+</head>
+<body>
+   
+    <div id="conteudo">
+        Bordas <br>
+        Bordas <br>
+        Bordas <br>
+    </div>
+
+    <div id="conteudo2">
+        Bordas <br>
+        Bordas <br>
+        Bordas <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="conteudo3">
+        Bordas <br>
+        Bordas <br>
+        Bordas <br>
+    </div>
+
+</body>
+</html>
