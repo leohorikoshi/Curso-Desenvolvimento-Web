@@ -1,0 +1,24 @@
+.back{
+    background-color: rgb(246, 74, 74);
+}
+
+.canecalho{
+    width: 100%;
+    height: fixed;
+    position:static;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: blueviolet;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+}
