@@ -1,10 +1,10 @@
 .back{
-    background-color: rgb(246, 74, 74);
+    background: #a27d60 url('imagnes/fundo.PNG') scroll;
 }
 
-.canecalho{
+.cabecalho{
     width: 100%;
-    height: fixed;
+    height: auto;
     position:static;
 }
 
